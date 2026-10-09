@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "world-preview-unofficial",
+	"version": "${version}",
+	"name": "World Preview Unofficial",
+	"description": "Allows you to preview a map in the new world screen. Unofficial port of caeruleusDraconis/world-preview.",
+	"authors": [
+		"Caeruleus Draconis",
+		"Taiterio"
+	],
+	"contributors": [
+		"77740901 (MC 26.2 port)"
+	],
+	"contact": {
+		"homepage": "https://github.com/77740901/world-preview",
+		"sources": "https://github.com/77740901/world-preview"
+	},
+	"license": "Apache-2.0",
+	"icon": "assets/world-preview-unofficial/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"caeruleusTait.world.preview.WorldPreview"
+		],
+		"client": [
+			"caeruleusTait.world.preview.client.WorldPreviewClient"
+		]
+	},
+	"mixins": [
+		"world-preview-unofficial.mixins.json"
+	],
+	"accessWidener": "world-preview-unofficial.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+	}
+}

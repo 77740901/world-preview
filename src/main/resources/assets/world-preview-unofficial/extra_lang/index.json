@@ -1,0 +1,18 @@
+{
+  "_note": "World Preview Unofficial - user overlay translations. This folder is intentionally kept apart from assets/world-preview-unofficial/lang/ so that custom translations stay distinguishable from the ones shipped with the mod. Files here are only applied when 'More translations' is enabled in the settings. To add a language, drop a <code>.json next to this file and register the code below.",
+  "locales": [
+    "zh_cn",
+    "zh_tw",
+    "ja_jp",
+    "ko_kr",
+    "ru_ru",
+    "de_de",
+    "fr_fr",
+    "es_es",
+    "pt_pt",
+    "it_it",
+    "pl_pl",
+    "uk_ua",
+    "tr_tr"
+  ]
+}
